@@ -12,3 +12,4 @@ RUN apk --update --no-cache add musl gcc build-base freetype-dev libpng-dev open
 # Example install procedure is bellow 
 # pip install numpy
 # pip cache purge
+
