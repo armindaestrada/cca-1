@@ -31,7 +31,7 @@ jobs:
           context: latest
           file: latest/Dockerfile
           push: true
-          tags: cyversevice/rstudio-verse:latest
+          tags: armindaestrada/alpine:actions-3.14
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}  
